@@ -13,7 +13,7 @@ Dưới đây là một số tính năng chính của Postman:
 * **Bảo mật:** Postman hỗ trợ các tính năng bảo mật như xác thực và ủy quyền.
 
 ### Giao diện overview
-![Giao diện overview](images/01-overview.svg)
+![Giao diện overview](images/01.over-view.png)
 
 ---
 
@@ -21,25 +21,25 @@ Dưới đây là một số tính năng chính của Postman:
 Các yêu cầu HTTP cơ bản:
 
 ### Yêu cầu GET 
-![Yêu cầu GET](images/02-get.svg)
+![Yêu cầu GET](images/02.get.png)
 
 ### Yêu cầu POST
-![Yêu cầu POST](images/03-post.svg)
+![Yêu cầu POST](images/03.post.png)
 
 ### Yêu cầu PUT
-![Yêu cầu PUT](images/04-put.svg)
+![Yêu cầu PUT](images/04.put.png)
 
 ### Yêu cầu DELETE
-![Yêu cầu DELETE](images/05-delete.svg)
+![Yêu cầu DELETE](images/05.delete.png)
 
 ### Test 
-![Kiểm tra Test Script](images/06-test.svg)
+![Kiểm tra Test Script](images/06.test.png)
 
 ### Sử dụng biến để lưu 1 URL
-![Sử dụng biến môi trường](images/07-variable.svg)
+![Sử dụng biến môi trường](images/07.variable.png)
 
 ---
 
 ## 3. THỰC HÀNH
 ### GET của 1 API thời tiết
-![Thực hành API thời tiết](images/08-thuc-hanh.svg)
+![Thực hành API thời tiết](images/08.practice.png)
