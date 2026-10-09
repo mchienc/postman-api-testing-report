@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 420" width="100%">
+  <rect width="850" height="420" rx="8" fill="#1E1E1E"/>
+  <rect width="850" height="38" rx="8" fill="#282828"/>
+  <circle cx="20" cy="19" r="6" fill="#FF5F56"/><circle cx="40" cy="19" r="6" fill="#FFBD2E"/><circle cx="60" cy="19" r="6" fill="#27C93F"/>
+  <text x="425" y="24" fill="#BBBBBB" font-family="sans-serif" font-size="12" text-anchor="middle">Tab Tests - Viết kịch bản kiểm tra mã trạng thái</text>
+
+  <!-- Request Tabs -->
+  <text x="30" y="70" fill="#9CA3AF" font-family="sans-serif" font-size="12">Params</text>
+  <text x="95" y="70" fill="#9CA3AF" font-family="sans-serif" font-size="12">Headers</text>
+  <text x="165" y="70" fill="#9CA3AF" font-family="sans-serif" font-size="12">Body</text>
+  <rect x="215" y="52" width="75" height="26" fill="#1E1E1E" stroke="#FF6C37" stroke-width="0 0 2 0"/>
+  <text x="235" y="70" fill="#FF6C37" font-family="sans-serif" font-size="12" font-weight="700">Tests</text>
+
+  <!-- Script Editor Box -->
+  <rect x="25" y="90" width="800" height="130" rx="4" fill="#141414" stroke="#333"/>
+  <text x="45" y="118" fill="#10B981" font-family="'Consolas', monospace" font-size="12">// Đoạn mã kiểm tra mã trạng thái trả về là 200 OK</text>
+  <text x="45" y="145" fill="#38BDF8" font-family="'Consolas', monospace" font-size="13">pm.test(<tspan fill="#FDE047">"Status code is 200"</tspan>, <tspan fill="#F472B6">function</tspan> () {</text>
+  <text x="75" y="172" fill="#38BDF8" font-family="'Consolas', monospace" font-size="13">pm.response.to.have.status(<tspan fill="#F472B6">200</tspan>);</text>
+  <text x="45" y="198" fill="#38BDF8" font-family="'Consolas', monospace" font-size="13">});</text>
+
+  <!-- Response Test Results Tab -->
+  <line x1="25" y1="235" x2="825" y2="235" stroke="#374151" stroke-width="1"/>
+  <rect x="25" y="250" width="160" height="28" fill="#252526"/>
+  <text x="35" y="269" fill="#34D399" font-family="sans-serif" font-size="12" font-weight="700">Test Results (1/1)</text>
+
+  <!-- Test Pass Badge -->
+  <rect x="25" y="295" width="800" height="95" rx="4" fill="#141414" stroke="#333"/>
+  <rect x="45" y="325" width="60" height="26" rx="4" fill="#16A34A"/>
+  <text x="75" y="342" fill="#FFFFFF" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">PASS</text>
+  <text x="120" y="343" fill="#F8FAFC" font-family="sans-serif" font-size="14" font-weight="600">Status code is 200</text>
+  <text x="120" y="370" fill="#9CA3AF" font-family="sans-serif" font-size="11">✓ Kiểm thử thành công, kết quả thực tế trùng khớp với kỳ vọng</text>
+</svg>
