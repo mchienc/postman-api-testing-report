@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="100%" height="100%">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6C37" />
+      <stop offset="100%" stop-color="#E05220" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.1" />
+    </filter>
+  </defs>
+
+  <rect width="900" height="260" rx="12" fill="#F8FAFC" />
+
+  <!-- Flow Steps -->
+  <!-- Step 1 -->
+  <g transform="translate(30, 40)" filter="url(#shadow)">
+    <rect width="180" height="170" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" />
+    <rect width="180" height="36" rx="10" fill="#FF6C37" />
+    <rect y="26" width="180" height="10" fill="#FF6C37" />
+    <text x="90" y="23" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" text-anchor="middle">1. Pre-request</text>
+    <text x="90" y="75" fill="#1E293B" font-family="sans-serif" font-size="12" font-weight="600" text-anchor="middle">Thiết lập dữ liệu</text>
+    <text x="90" y="105" fill="#64748B" font-family="sans-serif" font-size="11" text-anchor="middle">• Set Environment Var</text>
+    <text x="90" y="125" fill="#64748B" font-family="sans-serif" font-size="11" text-anchor="middle">• Dynamic Data (Random)</text>
+    <text x="90" y="145" fill="#64748B" font-family="sans-serif" font-size="11" text-anchor="middle">• Auth Token Prep</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <path d="M 220 125 L 245 125" stroke="#FF6C37" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow)" />
+  <polygon points="245,120 255,125 245,130" fill="#FF6C37" />
+
+  <!-- Step 2 -->
+  <g transform="translate(260, 40)" filter="url(#shadow)">
+    <rect width="180" height="170" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" />
+    <rect width="180" height="36" rx="10" fill="#2563EB" />
+    <rect y="26" width="180" height="10" fill="#2563EB" />
+    <text x="90" y="23" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">2. Send Request</text>
+    <text x="90" y="75" fill="#1E293B" font-family="sans-serif" font-size="12" font-weight="600" text-anchor="middle">Gửi HTTP Request</text>
+    <text x="90" y="105" fill="#64748B" font-family="sans-serif" font-size="11" text-anchor="middle">• GET, POST, PUT, DELETE</text>
+    <text x="90" y="125" fill="#64748B" font-family="sans-serif" font-size="11" text-anchor="middle">• Request Headers</text>
+    <text x="90" y="145" fill="#64748B" font-family="sans-serif" font-size="11" text-anchor="middle">• JSON Body Payload</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <path d="M 450 125 L 475 125" stroke="#2563EB" stroke-width="2.5" stroke-linecap="round" />
+  <polygon points="475,120 485,125 475,130" fill="#2563EB" />
+
+  <!-- Step 3 -->
+  <g transform="translate(490, 40)" filter="url(#shadow)">
+    <rect width="170" height="170" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" />
+    <rect width="170" height="36" rx="10" fill="#0D9488" />
+    <rect y="26" width="170" height="10" fill="#0D9488" />
+    <text x="85" y="23" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">3. SUT Response</text>
+    <text x="85" y="75" fill="#1E293B" font-family="sans-serif" font-size="12" font-weight="600" text-anchor="middle">Server trả lời</text>
+    <text x="85" y="105" fill="#64748B" font-family="sans-serif" font-size="11" text-anchor="middle">• Status Code (200, 201)</text>
+    <text x="85" y="125" fill="#64748B" font-family="sans-serif" font-size="11" text-anchor="middle">• Response Body (JSON)</text>
+    <text x="85" y="145" fill="#64748B" font-family="sans-serif" font-size="11" text-anchor="middle">• Response Time (ms)</text>
+  </g>
+
+  <!-- Arrow 3 -->
+  <path d="M 670 125 L 695 125" stroke="#0D9488" stroke-width="2.5" stroke-linecap="round" />
+  <polygon points="695,120 705,125 695,130" fill="#0D9488" />
+
+  <!-- Step 4 -->
+  <g transform="translate(710, 40)" filter="url(#shadow)">
+    <rect width="160" height="170" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" />
+    <rect width="160" height="36" rx="10" fill="#16A34A" />
+    <rect y="26" width="160" height="10" fill="#16A34A" />
+    <text x="80" y="23" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">4. Test Scripts</text>
+    <text x="80" y="75" fill="#1E293B" font-family="sans-serif" font-size="12" font-weight="600" text-anchor="middle">Kiểm tra kết quả</text>
+    <text x="80" y="105" fill="#64748B" font-family="sans-serif" font-size="11" text-anchor="middle">• pm.test &amp; Assertions</text>
+    <text x="80" y="125" fill="#64748B" font-family="sans-serif" font-size="11" text-anchor="middle">• Schema &amp; Data Check</text>
+    <text x="80" y="145" fill="#16A34A" font-weight="700" font-family="sans-serif" font-size="11" text-anchor="middle">PASS / FAIL</text>
+  </g>
+</svg>

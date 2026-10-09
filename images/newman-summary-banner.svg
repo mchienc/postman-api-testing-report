@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="100%">
+  <rect width="800" height="240" rx="12" fill="#0F172A" />
+
+  <text x="40" y="45" fill="#38BDF8" font-family="'Consolas', 'Courier New', monospace" font-size="16" font-weight="700">Newman Automated Test Runner Summary</text>
+  <text x="40" y="70" fill="#94A3B8" font-family="'Consolas', 'Courier New', monospace" font-size="13">Suite: Postman API Testing Suite - Demo JSONPlaceholder</text>
+
+  <!-- Metric Box 1 -->
+  <g transform="translate(40, 95)">
+    <rect width="160" height="100" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="80" y="32" fill="#94A3B8" font-family="sans-serif" font-size="12" text-anchor="middle">TOTAL REQUESTS</text>
+    <text x="80" y="72" fill="#38BDF8" font-family="sans-serif" font-size="28" font-weight="700" text-anchor="middle">8 / 8</text>
+    <text x="80" y="88" fill="#10B981" font-family="sans-serif" font-size="10" font-weight="600" text-anchor="middle">100% EXECUTED</text>
+  </g>
+
+  <!-- Metric Box 2 -->
+  <g transform="translate(225, 95)">
+    <rect width="160" height="100" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="80" y="32" fill="#94A3B8" font-family="sans-serif" font-size="12" text-anchor="middle">ASSERTIONS</text>
+    <text x="80" y="72" fill="#10B981" font-family="sans-serif" font-size="28" font-weight="700" text-anchor="middle">19 / 19</text>
+    <text x="80" y="88" fill="#10B981" font-family="sans-serif" font-size="10" font-weight="600" text-anchor="middle">100% PASSED</text>
+  </g>
+
+  <!-- Metric Box 3 -->
+  <g transform="translate(410, 95)">
+    <rect width="160" height="100" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="80" y="32" fill="#94A3B8" font-family="sans-serif" font-size="12" text-anchor="middle">FAILED TESTS</text>
+    <text x="80" y="72" fill="#F43F5E" font-family="sans-serif" font-size="28" font-weight="700" text-anchor="middle">0</text>
+    <text x="80" y="88" fill="#10B981" font-family="sans-serif" font-size="10" font-weight="600" text-anchor="middle">ZERO FAILURES</text>
+  </g>
+
+  <!-- Metric Box 4 -->
+  <g transform="translate(595, 95)">
+    <rect width="165" height="100" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="82" y="32" fill="#94A3B8" font-family="sans-serif" font-size="12" text-anchor="middle">AVG RESPONSE TIME</text>
+    <text x="82" y="72" fill="#F59E0B" font-family="sans-serif" font-size="28" font-weight="700" text-anchor="middle">344ms</text>
+    <text x="82" y="88" fill="#94A3B8" font-family="sans-serif" font-size="10" font-weight="600" text-anchor="middle">TOTAL DURATION: 3.4s</text>
+  </g>
+</svg>
